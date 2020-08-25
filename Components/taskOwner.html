@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>task Owner</title>
+        <link rel="stylesheet" href="taskOwner.css" />
+    </head>
+    <body>
+        <h1>I'm the task owner</h1>
+        <form class="container" id="myForm" action="tasks.html" method="GET">
+            <label>First Name:</label>
+            <input type="text" name="title" id="fname"/>
+
+            <label>Second Name:</label>
+            <input type="text" id="lname" name="text" />
+
+            <label>Task:</label>
+            <textarea 
+                name="task"
+                style="padding: 40px;"
+                id="question"
+            >
+            </textarea>
+
+            <button class="button">Submit</button>
+        </form>
+
+        <span>
+            <a href="app.html">&LeftArrow; Go back</a>
+        </span>
+        <button class="reset">Reset</button>
+
+        <script src="taskOwner.js"></script>
+    </body>
+</html>

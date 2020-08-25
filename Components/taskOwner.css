@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(221, 221, 221);
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+label {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 15px;
+    width: 300px
+}
+
+input, textarea {
+    width: 200px;
+    margin-left: 50px;
+    padding: 2.5px 40px;
+    text-align: center;
+    height: 25px;
+}
+
+button {
+    width: 120px;
+    margin: 45px;
+    padding: 10px 20px 10px 20px;
+}
